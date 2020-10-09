@@ -1,0 +1,52 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 21%;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+body{
+    background-color: darkgrey;
+}
+
+.titulos{
+    color: black;
+    font-family: fantasy;
+    font-size: 33px;
+}
+
+.layout{
+    margin-left: 820px;
+    width: 20%;
+    background-color: white;
+    text-align: center;
+    border-radius: 3px;
+    font-family: "Arial";
+}

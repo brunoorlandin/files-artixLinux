@@ -1,0 +1,14 @@
+Install packages from AUR
+	makepkg -si
+
+Unzip .tar.gz files
+	tar -zxvf file.tar.gz
+
+auto closing vim plugin
+	git clone https://github.com/jiangmiao/auto-pairs.git
+	if there is no .vim directory:
+	mkdir -p .vim/plugin
+	cp /auto-pairs/plugin/auto-pairs.vim
+
+git save credentials on git directory
+	git config --global credential.helper store	

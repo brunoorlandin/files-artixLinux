@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="/estatico/css/info.css" media="screen"/>
+</head>
+<body>
+
+<div class="menu">
+    <ul>
+        <li><a href="/">Home</a> </li>
+        <li><a href="/curriculo" >Curriculo</a> </li>
+        <li><a href="/contato" >Contato</a> </li>
+        <li><a href="/controle" >Area de controle</a> </li>
+    </ul>
+</div>
+
+    <h1>Mensagens</h1>
+<div class="mensagens">
+    <% for(var i=0; i < mensagens.length; i++) {  %>
+    <p>Nome: <%=mensagens[i].nome%><br> Email: <%=mensagens[i].email%> <br>Sugestão: <%=mensagens[i].texto%><br></p>
+    <% } %>
+</div>
+    <br>
+
+
+</body>
+</html>

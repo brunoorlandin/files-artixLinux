@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="/estatico/css/controle.css" media="screen"/>
+</head>
+<body>
+<div class="menu">
+    <ul>
+        <li><a href="/">Home</a> </li>
+        <li><a href="/curriculo" >Curriculo</a> </li>
+        <li><a href="/contato" >Contato</a> </li>
+        <li><a href="/controle" >Area de controle</a> </li>
+    </ul>
+</div>
+    <form method="post" action="/info">
+        <br>
+        <input name="usuario" type="text" placeholder="Usuário ou email" required autofocus><br>
+        <br><br>
+        <input name="senha" type="password" placeholder="Senha" required><br>
+        <br>
+        <input class="manter" type="checkbox" name="manter" id="manter" value="">
+        <label class="manter" for="manter">Manter logado</label><br><br>
+        <input type="submit" value="Entrar">
+    </form>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="/estatico/css/contato.css" media="screen"/>
+</head>
+<body>
+
+<script>
+    function avisa() {
+        alert("Obrigado pelo contato!")
+    }
+</script>
+
+<div class="menu">
+    <ul>
+        <li><a href="/">Home</a> </li>
+        <li><a href="/curriculo" >Curriculo</a> </li>
+        <li><a href="/contato" >Contato</a> </li>
+        <li><a href="/controle" >Area de controle</a> </li>
+    </ul>
+</div>
+    <h1>Deixe sua mensagem!</h1>
+
+<div>
+    <form action="/enviaMensagem" method="post">
+        <br><br>
+        <input type="text" name="nome" placeholder="Seu nome" autofocus><br>
+        <br><br>
+        <input type="text" name="email" placeholder="Seu email"><br>
+        <br><br>
+        <textarea name="texto" placeholder="Deixe sua sugestão"></textarea><br><br>
+        <input type="submit" value="Enviar" onclick="avisa()">
+    </form>
+</div>
+</body>
+</html>

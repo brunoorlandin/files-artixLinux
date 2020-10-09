@@ -1,0 +1,95 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    width: 21%;
+}
+
+li {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+body{
+    background-color: darkgrey;
+}
+
+form{
+    margin-top: 100px;
+    text-align: center;
+    padding: 5px;
+    display: block;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    margin-left: 800px;
+    margin-right: 800px;
+    background-color: white;
+}
+
+
+form div{
+    font-size: 20px;
+    font-family: fantasy;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+input[type="submit"]{
+    width: 25%;
+    font-family: fantasy;
+    background: darkgrey;
+    padding: 10px 8px;
+    color: black;
+    font-size: 20px;
+    border: 1px solid #fff;
+    margin-bottom: 10px;
+}
+
+input[type="submit"]:hover{
+    background: gray;
+}
+
+input{
+    font-size: 16px;
+    font-family: "Times New Roman";
+}
+
+input[type="checkbox"]{
+    position: absolute;
+    margin-left: -75px;
+}
+
+label{
+    margin-left: -50px;
+}
+
+::placeholder  {
+    color: #bebcbc;
+    font-style: italic;
+}
+
+
+
+
